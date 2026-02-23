@@ -49,8 +49,10 @@ Security: Klik Download & Scan dengan MSERT untuk mengunduh dan menjalankan scan
 Booster: Atur interval auto booster atau jalankan manual.
 About: Cek versi aplikasi dan periksa pembaruan.
 
-⚠️ Disclaimer / Penafian
+⚠️ Disclaimer 
+
 Penting! Baca dengan saksama sebelum menggunakan.
+
 Penggunaan Berisiko
 NeoOptimize dapat mengubah sistem Anda, termasuk menghapus file, mengubah registry, dan menghentikan proses. Pastikan Anda telah membackup data penting sebelum menggunakan fitur yang bersifat destruktif. Kami tidak bertanggung jawab atas kehilangan data atau kerusakan sistem yang mungkin timbul akibat penggunaan aplikasi ini.
 Tidak Ada Garansi
