@@ -1,0 +1,47 @@
+# NeoOptimize config sample (godmode.conf)
+# Performance tweaks
+cpu_governor=performance
+io_scheduler=deadline
+swappiness=10
+tcp_congestion=bbr
+
+# Bloatware removal candidates (comma separated)
+bloatware=cups,avahi-daemon,snapd,telnet
+
+# Startup optimization (service:enabled)
+services=NetworkManager:1,bluetooth:0,cups:0,ModemManager:1
+
+# Kernel params
+vm_swappiness=10
+net_core_somaxconn=1024
+fs_file_max=2097152
+
+# Update settings
+github_repo=gxmood/NeoOptimize
+
+# Contact
+developer_name=Sigit Profesional IT
+developer_whatsapp=087889911030
+developer_email=gxmood@gmail.com
+
+# Donations
+donate_buyme=https://buymeacoffee.com/nol.eight
+donate_saweria=https://saweria.co/dtechtive
+donate_dana=https://ik.imagekit.io/dtechtive/Dana
+
+# --- Advanced cleaner settings (used by Python engine) ---
+# general.use_recycle_bin: true|false  -> whether to attempt recycle bin (best-effort)
+# general.min_file_age_days: 0        -> skip files younger than N days
+# general.min_file_size_kb: 0         -> skip files smaller than KB
+# general.auto_clean: false           -> if true, engine may auto-clean when monitoring
+
+# Example (uncomment to override):
+# general.use_recycle_bin=true
+# general.min_file_age_days=1
+# general.min_file_size_kb=1
+
+# --- Mapping of features to config keys ---
+# disk.defrag_threshold (percent)
+# performance.visual_effects: adjust|minimal|none
+# scheduler.auto_clean: true|false
+
