@@ -18,7 +18,7 @@ const optimizeSteps = [
 {
   delay: 0,
   level: 'info',
-  text: 'Initializing optimization engine v2.4.1...'
+  text: 'Initializing optimization engine v1.0'
 },
 {
   delay: 400,
@@ -31,17 +31,17 @@ const optimizeSteps = [
   text: 'Analyzing CPU scheduler — governor: powersave'
 },
 {
-  delay: 1300,
+  delay: 800,
   level: 'ok',
   text: 'Applying CPU governor: performance [+8% throughput]'
 },
 {
-  delay: 1800,
+  delay: 800,
   level: 'ok',
   text: 'Flushing memory cache — 2.4GB freed'
 },
 {
-  delay: 2300,
+  delay: 800,
   level: 'warn',
   text: 'Network buffer: suboptimal — tuning TCP stack...'
 },
